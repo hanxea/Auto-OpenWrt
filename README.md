@@ -1,4 +1,4 @@
-本库为小娱路由器OpenWrt固件云编译地址，每周五自动拉取源码进行更新
+本库为小娱路由器OpenWrt固件云编译地址，每周五自动拉取最新源码进行更新
 
 本库基于 <a href="https://github.com/IvanSolis1989/OpenWrt-DIY">IvanSolis1989 的 OpenWrt-DIY 库</a> 进行二改
 
