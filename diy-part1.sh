@@ -17,7 +17,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git diy https://github.com/CCnut/feed-netkeeper.git;LUCI-LUA-UCITRACK' feeds.conf.default
 
-# Add luci-theme-argon
+# Add openwrt-packages
 svn co  https://github.com/liuran001/openwrt-packages/trunk package/p1
 rm -rf package/lean/luci-theme-argon
 
