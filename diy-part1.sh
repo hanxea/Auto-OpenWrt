@@ -21,9 +21,6 @@ sed -i '$a src-git diy https://github.com/CCnut/feed-netkeeper.git;LUCI-LUA-UCIT
 svn co  https://github.com/liuran001/openwrt-packages/trunk package/p1
 rm -rf package/lean/luci-theme-argon
 
-#Add  luci-app-argon-config
-git clone https://github.com/jerrykuku/luci-app-argon-config packages/luci-app-argon-config
-
 # Svn checkout packages from immortalwrt's repository
 git clone --depth=1 https://github.com/immortalwrt/packages -b openwrt-18.06 packages
 git clone --depth=1 https://github.com/immortalwrt/luci -b openwrt-18.06 luci
